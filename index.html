@@ -1,81 +1,157 @@
-# Hangout Hunt Privacy Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Hangout Hunt</title>
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 8px;
+  }
+  p, li {
+    font-size: 1rem;
+  }
+  ul {
+    padding-left: 22px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 0.95rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    vertical-align: top;
+  }
+  th {
+    background: #f7f7f7;
+    font-weight: 600;
+  }
+  a {
+    color: #0066cc;
+  }
+  strong {
+    font-weight: 600;
+  }
+  .intro {
+    font-size: 1.05rem;
+    color: #333;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #eee; }
+    h2 { border-bottom-color: #333; }
+    th { background: #1e1e1e; }
+    th, td { border-color: #2a2a2a; }
+    .updated { color: #aaa; }
+    a { color: #6ab0ff; }
+  }
+</style>
+</head>
+<body>
 
-**Last updated: July 9, 2026**
+<h1>Hangout Hunt Privacy Policy</h1>
+<p class="updated">Last updated: July 9, 2026</p>
 
-This policy explains what Hangout Hunt collects, why, and what you can do about it. No filler — if something isn't listed here, we don't collect it.
+<p class="intro">This policy explains what Hangout Hunt collects, why, and what you can do about it. No filler — if something isn't listed here, we don't collect it.</p>
 
-## What we collect
+<h2>What we collect</h2>
 
-**To create your account:** your email address and password. Your password is handled by our authentication provider (Supabase) and we never see or store it in plain text.
+<p><strong>To create your account:</strong> your email address and password. Your password is handled by our authentication provider (Supabase) and we never see or store it in plain text.</p>
 
-**To personalize suggestions:** whatever you type into your profile — first/last name, gender, city, state, zip code, and your stated interests (hobbies, music, movies/TV, sports/fitness, cuisines). All of this is typed by you; **we do not access your device's GPS or location services**, and the app has no code path that requests location permission.
+<p><strong>To personalize suggestions:</strong> whatever you type into your profile — first/last name, gender, city, state, zip code, and your stated interests (hobbies, music, movies/TV, sports/fitness, cuisines). All of this is typed by you; <strong>we do not access your device's GPS or location services</strong>, and the app has no code path that requests location permission.</p>
 
-**Favorite places:** if you add a "favorite place" (like a gym or restaurant you already go to), we send the name you typed to a mapping service (TomTom) to look up its address and coordinates, then store that alongside your profile.
+<p><strong>Favorite places:</strong> if you add a "favorite place" (like a gym or restaurant you already go to), we send the name you typed to a mapping service (TomTom) to look up its address and coordinates, then store that alongside your profile.</p>
 
-**Group sessions:** if you host or join a group session, we store the room code, the display name you type in (which doesn't have to match your account name), your votes on suggested activities, and the group's final pick. **You can join a group session as a guest without creating an account at all** — in that case we only hold a temporary, randomly generated ID and whatever name you typed for that session.
+<p><strong>Group sessions:</strong> if you host or join a group session, we store the room code, the display name you type in (which doesn't have to match your account name), your votes on suggested activities, and the group's final pick. <strong>You can join a group session as a guest without creating an account at all</strong> — in that case we only hold a temporary, randomly generated ID and whatever name you typed for that session.</p>
 
-**AI-generated suggestions:** to generate venue recommendations, we send your city/state, interests, group size, and outing type to Google's Gemini API through our own backend. We do not send your name, email, or account ID to Gemini — it only ever sees the context needed to suggest places, not who you are.
+<p><strong>AI-generated suggestions:</strong> to generate venue recommendations, we send your city/state, interests, group size, and outing type to Google's Gemini API through our own backend. We do not send your name, email, or account ID to Gemini — it only ever sees the context needed to suggest places, not who you are.</p>
 
-**On your device:** we cache your most recent set of suggested activities locally so the app loads faster, and we keep your login session so you don't have to sign in every time.
+<p><strong>On your device:</strong> we cache your most recent set of suggested activities locally so the app loads faster, and we keep your login session so you don't have to sign in every time.</p>
 
-## Why we collect it
+<h2>Why we collect it</h2>
+<ul>
+  <li>Email/password: to create and secure your account</li>
+  <li>Profile and interests: to generate relevant activity suggestions</li>
+  <li>Zip code/city: to find venues near you (never your precise location)</li>
+  <li>Favorite places: to personalize suggestions around places you already like</li>
+  <li>Group session data: to run the shared swiping/voting experience and pick a winner</li>
+  <li>AI prompt data: to generate the actual list of suggested venues</li>
+</ul>
+<p>We don't use any of this for advertising, and we don't run analytics or tracking SDKs of any kind — there's nothing in the app collecting behavioral or usage data beyond what's listed above.</p>
 
-- Email/password: to create and secure your account
-- Profile and interests: to generate relevant activity suggestions
-- Zip code/city: to find venues near you (never your precise location)
-- Favorite places: to personalize suggestions around places you already like
-- Group session data: to run the shared swiping/voting experience and pick a winner
-- AI prompt data: to generate the actual list of suggested venues
+<h2>Who we share it with</h2>
+<p>We use a small number of service providers to run the app. None of them get more than what they need to do their specific job:</p>
 
-We don't use any of this for advertising, and we don't run analytics or tracking SDKs of any kind — there's nothing in the app collecting behavioral or usage data beyond what's listed above.
+<table>
+  <thead>
+    <tr><th>Provider</th><th>What it receives</th><th>What it's for</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Supabase</strong></td><td>Email, password (hashed), profile fields, session/group data</td><td>Our database, authentication, and backend hosting</td></tr>
+    <tr><td><strong>Google Gemini</strong></td><td>City/state, interests, group size, outing type — no name, email, or account ID</td><td>Generating venue suggestions</td></tr>
+    <tr><td><strong>Zippopotam.us</strong></td><td>The zip code you enter</td><td>Converting a zip code into a city/state and approximate coordinates</td></tr>
+    <tr><td><strong>TomTom</strong></td><td>The place name you type under "Favorite Places"</td><td>Looking up an address for that place</td></tr>
+  </tbody>
+</table>
 
-## Who we share it with
+<p>We do not sell your data, and we don't share it with advertisers or data brokers.</p>
 
-We use a small number of service providers to run the app. None of them get more than what they need to do their specific job:
+<h2>Location data</h2>
+<p>To be direct: <strong>Hangout Hunt does not collect your device's GPS location.</strong> Every location input in the app — zip code, city, state — is typed by you. We use that to estimate a general area (city-level) for finding nearby venues, never a precise, continuously-tracked location.</p>
 
-| Provider | What it receives | What it's for |
-|---|---|---|
-| **Supabase** | Email, password (hashed), profile fields, session/group data | Our database, authentication, and backend hosting |
-| **Google Gemini** | City/state, interests, group size, outing type — no name, email, or account ID | Generating venue suggestions |
-| **Zippopotam.us** | The zip code you enter | Converting a zip code into a city/state and approximate coordinates |
-| **TomTom** | The place name you type under "Favorite Places" | Looking up an address for that place |
+<h2>How long we keep your data, and deletion</h2>
+<p>We keep your account and associated data for as long as your account exists. You can permanently delete your account at any time from <strong>Account → Delete Account</strong> in the app — this immediately and permanently removes your profile, favorite places, and session participation records, and deletes your login credentials entirely. This action cannot be undone.</p>
+<p>If you'd rather not use the in-app option, email us at <a href="mailto:aarushparikh999@gmail.com">aarushparikh999@gmail.com</a> and we'll delete your account and data for you.</p>
+<p>Group session data (room codes, other members' votes, activity lists) that belongs to a shared group session is not deleted when you delete your account, since it's shared with other participants who may still be using it.</p>
 
-We do not sell your data, and we don't share it with advertisers or data brokers.
+<h2>Your rights</h2>
+<ul>
+  <li><strong>See and edit</strong> your profile info anytime from the Account tab</li>
+  <li><strong>Delete your account and data</strong> anytime from Account → Delete Account, or by emailing us</li>
+  <li><strong>Sign out</strong> at any time, which clears your session from the device</li>
+  <li><strong>Request a copy</strong> of the data we hold on your account by emailing us</li>
+</ul>
+<p>If you're in a region with specific data rights (like the EU/UK's GDPR or California's CCPA), these requests are handled the same way — through the app or by emailing us.</p>
 
-## Location data
+<h2>Children's privacy</h2>
+<p>Hangout Hunt is not directed at children under 13, and we do not knowingly collect information from children under 13.</p>
 
-To be direct: **Hangout Hunt does not collect your device's GPS location.** Every location input in the app — zip code, city, state — is typed by you. We use that to estimate a general area (city-level) for finding nearby venues, never a precise, continuously-tracked location.
+<h2>Security</h2>
+<p>Account data is stored with Supabase, which encrypts data in transit and at rest. No method of storage or transmission is 100% secure, but we don't do anything unusual with your data beyond what's described above — no separate analytics pipeline, no third-party ad SDKs, no background trackers.</p>
 
-## How long we keep your data, and deletion
+<h2>Changes to this policy</h2>
+<p>If we change what we collect or how we use it, we'll update this page and change the "Last updated" date at the top. If a change is significant, we'll let you know in the app.</p>
 
-We keep your account and associated data for as long as your account exists. You can permanently delete your account at any time from **Account → Delete Account** in the app — this immediately and permanently removes your profile, favorite places, and session participation records, and deletes your login credentials entirely. This action cannot be undone.
+<h2>Contact</h2>
+<p>Questions, data requests, or account deletion requests: <a href="mailto:aarushparikh999@gmail.com">aarushparikh999@gmail.com</a></p>
 
-If you'd rather not use the in-app option, email us at **aarushparikh999@gmail.com** and we'll delete your account and data for you.
-
-Group session data (room codes, other members' votes, activity lists) that belongs to a shared group session is not deleted when you delete your account, since it's shared with other participants who may still be using it.
-
-## Your rights
-
-You can:
-- **See and edit** your profile info anytime from the Account tab
-- **Delete your account and data** anytime from Account → Delete Account, or by emailing us
-- **Sign out** at any time, which clears your session from the device
-- **Request a copy** of the data we hold on your account by emailing us
-
-If you're in a region with specific data rights (like the EU/UK's GDPR or California's CCPA), these requests are handled the same way — through the app or by emailing us.
-
-## Children's privacy
-
-Hangout Hunt is not directed at children under 13, and we do not knowingly collect information from children under 13. The app's "Family" mode is meant for adults planning outings that include children, not for children to use the app themselves.
-
-## Security
-
-Account data is stored with Supabase, which encrypts data in transit and at rest. No method of storage or transmission is 100% secure, but we don't do anything unusual with your data beyond what's described above — no separate analytics pipeline, no third-party ad SDKs, no background trackers.
-
-## Changes to this policy
-
-If we change what we collect or how we use it, we'll update this page and change the "Last updated" date at the top. If a change is significant, we'll let you know in the app.
-
-## Contact
-
-Questions, data requests, or account deletion requests: **aarushparikh999@gmail.com**
+</body>
+</html>
