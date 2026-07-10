@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hangout Hunt Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --subtext: #5a5a5a;
+    --border: #e3e3e3;
+    --accent: #2b6cb0;
+    --card: #f7f7f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --text: #f0f0f0;
+      --subtext: #a8a8a8;
+      --border: #2e2e2e;
+      --accent: #6fa8dc;
+      --card: #1c1c1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  p.lead {
+    color: var(--subtext);
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text);
+  }
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-top: 32px;
+  }
+  .card h2 {
+    margin-top: 0;
+  }
+  .footer-link {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 14px;
+    color: var(--subtext);
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hangout Hunt Support</h1>
+  <p class="lead">Questions, bugs, or account help — here's how to reach us and what to try first.</p>
+
+  <h2>Common issues</h2>
+  <ul>
+    <li><strong>Trouble logging in:</strong> use "Forgot password?" on the login screen to reset via a code sent to your email. If you don't receive it, check spam before contacting us.</li>
+    <li><strong>Group session won't start or sync:</strong> make sure everyone has a stable connection — the lobby and swiping screens update in real time and need one.</li>
+    <li><strong>Activity suggestions look off or don't load:</strong> this is usually a temporary issue with the suggestion service — try again in a moment, and let us know if it persists.</li>
+    <li><strong>Want to delete your account:</strong> go to <strong>Account → Delete Account</strong> in the app. This is permanent and removes your profile and account immediately. See our <a href="./index.html">Privacy Policy</a> for details on what's deleted.</li>
+  </ul>
+
+  <div class="card">
+    <h2>Contact us</h2>
+    <p>
+      For anything not covered above — bug reports, feedback, or account/data requests —
+      email <a href="mailto:aarushparikh999@gmail.com">aarushparikh999@gmail.com</a>.
+      We'll get back to you as soon as we can.
+    </p>
+  </div>
+
+  <a class="footer-link" href="./index.html">&larr; Back to Privacy Policy</a>
+</main>
+</body>
+</html>
